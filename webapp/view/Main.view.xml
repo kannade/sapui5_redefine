@@ -1,0 +1,13 @@
+<mvc:View controllerName="nickcode_ru_redefine.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:myself="nickcode_ru_redefine.controls">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}" id="idPage">
+				<content>
+					<Button text="text button 1" />
+					<myself:Button text="text button 2" />
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
